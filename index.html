@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhumi Lo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %} ">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Roomlo</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown px-3 nav-dark">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                  Available rooms
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/rooms">For class</a>
+                  <a class="dropdown-item" href="/rooms">For meeting</a>
+                  <a class="dropdown-item" href="/rooms">For event</a>
+                  <div class="dropdown-divider"></div>
+
+                </div>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link" href="/admin/">Admin</a>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link" href="/login/">Login</a>
+              </li>
+               <li class="nav-item px-3">
+                  <a class="nav-link" href="/admin/accounts/booking/">Booked Rooms</a>
+              </li>
+          </ul>
+        </div>
+       </nav>
+
+       </div>
+        <section id="desc">
+            <div class="row">
+                <div class="col-lg-6" style="padding-top: 100px;">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, ipsum. Dolorum perferendis voluptatum nobis possimus officia amet deleniti iusto dolores ullam? Corrupti, cumque perspiciatis. Doloribus mollitia totam voluptatem sed praesentium?</h3>
+                </div>
+                <div class="col-lg-6" style="padding-left: 150px;">
+                 <img src="{% static '/images/img3.jpg' %}" alt="abe yr">
+                </div>
+            </div>
+         
+            </section>
+
+        <section id="rooms">
+            <h2>A Room for every single thing!</h2>
+            <p>Choose from these options</p>
+
+            
+    <div class="row">
+        <div class="price-col col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Meetings</h3>
+        </div>
+        <div class="card-body">
+          <h2>10-20 members</h2>
+          <p>Less Row Seats</p>
+          <button class="btn btn-lg btn-block btn-outline-warning" type="button">Check available rooms</button>
+        </div>
+      </div>
+    </div>
+  
+      <div class="price-col col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Classes</h3>
+        </div>
+        <div class="card-body">
+          <h2>50-60 members</h2>
+          <p>Projector Access</p>
+          <p>Medium Row Seats</p>
+          <button class="btn btn-lg btn-block btn-outline-warning" type="button">Check available rooms</button>
+        </div>
+      </div>
+      </div>
+      
+      <div class="price-col col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h3>Events</h3>
+        </div>
+        <div class="card-body">
+          <h2>100+ members</h2>
+          <p>AC rooms</p>
+          <p>Projector Access</p>
+          <p>Large Row Seats</p>
+          <button class="btn btn-lg btn-block btn-outline-warning" type="button">Check available rooms</button>
+        </div>
+      </div>
+      </div>
+    </div>
+
+        </section>
+
+        <footer id="footer">
+            <div class="cnt">
+            <a class="icn" href=""><i class="fab fa-twitter fa-1x"></i></a>
+            <a class="icn" href=""><i class="fab fa-facebook-f fa-1x"></i></a>
+            <a class="icn" href=""><i class="fab fa-instagram fa-1x"></i></a>
+            <a class="icn" href=""><i class="fas fa-envelope fa-1x"></i></a>
+            </div>
+            <p>© Copyright 2020 Tross</p>
+        
+          </footer>
+       
+       
+
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/235abc4860.js" crossorigin="anonymous"></script>
+</body>
+</html>
