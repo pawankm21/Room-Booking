@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Rooms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Available Rooms*</h1>
+        <p class="lead">*Timings of availability are not exact and are subject to change</p>
+        <hr class="my-4">
+    </div>
+    
+    <section id="tabs" class="project-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab">Meetings</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab">Classes</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab">Events</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel">
+                            <table class="table" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Room No.</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>C206</td>
+                                        <td>27/09</td>
+                                        <td>5PM-6PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>C201</td>
+                                        <td>27/09</td>
+                                        <td>7PM-8PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>C308</td>
+                                        <td>28/09</td>
+                                        <td>2PM-3PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <table class="table" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Room No.</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>B105</td>
+                                        <td>27/09</td>
+                                        <td>5PM-7PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>B103</td>
+                                        <td>27/09</td>
+                                        <td>8PM-10PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>B708</td>
+                                        <td>28/09</td>
+                                        <td>2PM-4PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <table class="table" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Room No.</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>AG01</td>
+                                        <td>27/09</td>
+                                        <td>5PM-8PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>AG02</td>
+                                        <td>28/09</td>
+                                        <td>8AM-12PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>AG04</td>
+                                        <td>28/09</td>
+                                        <td>2PM-5PM</td>
+                                        <td><a href="" class="btn btn-sm btn-outline-warning" role="button">Book</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+</body>
+</html>
